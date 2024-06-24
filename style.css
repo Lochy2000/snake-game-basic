@@ -7,8 +7,13 @@ body {
     font-family: "VT323", monospace;
 }
 
-body, .snake {
+body {
     background-color: #182703 ;
+    background: url(snake-bg.png)center center / cover;
+}
+.snake {
+    background-image: linear-gradient(to right, rgb(0, 247, 255), rgb(244, 194, 11));
+    background: url(snake-scale4.jpeg) center center;
 }
 
 #game-board{
@@ -55,17 +60,17 @@ body, .snake {
     justify-content: space-between;
 }
 #score {
-    color: #73aa25;
+    color: #dceb10;
 }
 
-#score, #highScores{
+#score, #highScore{
     font-size: 40px;
     font-weight: bolder;
     margin: 10px 0;
 }
 
-#highScores {
-    color: #46661a;
+#highScore {
+    color: #37ff00;
     display: none;
 }
 
@@ -75,11 +80,15 @@ body, .snake {
 }
 
 .snake{
-    border: #182703 1px dotted;
+    border: #182703 1px;
 }
 
 .food{
     background-color: #dedede;
+    border: #999 5px solid;
+}
+.food2{
+    background-color: #c23333;
     border: #999 5px solid;
 }
 
