@@ -75,21 +75,24 @@ body {
 }
 
 
-.game-border-3, #logo{
-    background-color: #73aa25;
+.game-border-3{
+    background-color: #eda32d;
+    background-image: linear-gradient(to bottom, rgb(250, 162, 10), rgb(9, 74, 216), rgb(1, 86, 1) );
 }
+
 
 .snake{
     border: #182703 1px;
+    background-image: url(snake-scale4.jpeg);
 }
 
 .food{
-    background-color: #dedede;
-    border: #999 5px solid;
+    background-image: url(snake-logo.png);
+    border: #999 4px solid;
 }
 .food2{
     background-color: #c23333;
-    border: #999 5px solid;
+    border: #f3d933 4px solid;
 }
 
 #logo  {
